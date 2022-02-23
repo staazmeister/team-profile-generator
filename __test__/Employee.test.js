@@ -28,12 +28,12 @@ test("Will the test name go through getName method?", () => {
 
 test("Will this test email go through getEmail method?", () => {
     const testEmail = "jos.a.hill@gmail.com";
-    const employee = new Employee(11111,"Jo Hill", testEmail);
+    const employee = new Employee(11111, "Jo Hill", testEmail);
     expect(employee.getEmail()).toBe(testEmail);
 })
 
 test("Can we test the role type?", () => {
     const returnValue = "Employee";
-    const employee = new Employee(11111,"Jo Hill", "jos.a.hill@gmail.com");
+    const employee = new Employee(11111, "Jo Hill", "jos.a.hill@gmail.com");
     expect(employee.getRole()).toBe(returnValue);
 })
