@@ -74,16 +74,8 @@ Skills to be implemented on this project are:
 
 
 
-<<<<<<< HEAD
-## Links to Application Video Demo(s) and GitHup Repository
-Video demo of application: https://drive.google.com/file/d/1WJJ8T4f5h11kyYxu4RoW-6gbIZ-10Y-y/view
-Video demo of test(s): https://drive.google.com/file/d/1hgp8TfR60zth_X7NUS03RYboTVfw60eb/view
-
-URL for GitHub repository: https://github.com/staazmeister/team-profile-generator.git
-=======
 ## Links to Application Video Demo and GitHup Repository
 - Video demo of application: https://drive.google.com/file/d/1WJJ8T4f5h11kyYxu4RoW-6gbIZ-10Y-y/view
 - Video demo of test(s): https://drive.google.com/file/d/1hgp8TfR60zth_X7NUS03RYboTVfw60eb/view
 
-- URL for GitHub repository: https://github.com/staazmeister/professional-README-Generator.git
->>>>>>> b8418d19359593d300946981c45e8e26df73b372
+- URL for GitHub repository: https://github.com/staazmeister/team-profile-generator.git
