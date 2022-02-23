@@ -11,7 +11,7 @@ This week's project was to build a command-line application that generates a Tea
 6. Open terminal in code editor
 7. Type in terminal "npm init -y" to install dependency packages needed
 
-Ensure the following packages are installed
+  Ensure the following packages are installed
 - Inquirer (If not inlcuded, you can install by typing "npm install inquirer" in the terminal)
 - Jest (If not inlcuded, you can install by typing "npm install jest" in the terminal)
 
