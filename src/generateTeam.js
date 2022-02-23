@@ -1,23 +1,23 @@
-const Manager = require('../lib/Manager');
-const Engineer = require('../lib/Engineer')
-const Intern = require('../lib/Intern')
+const Manager = require("../lib/Manager");
+const Engineer = require("../lib/Engineer")
+const Intern = require("../lib/Intern")
 
 
 function generateCards(team) {
   let cards = []
   for(let i = 0; i < team.length; i++) {
-    const teamArray = team[i];
-    switch(teamArray.getRole()) {
-      case 'Manager':
-        const manager = new Manager(teamArray.id, teamArray.name, teamArray.email, teamArray.officeNumber);
+    const teamArr = team[i];
+    switch(teamArr.getRole()) {
+      case "Manager":
+        const manager = new Manager(teamArr.id, teamArr.name, teamArr.email, teamArr.officeNumber);
         cards.push(generateManagerCard(manager));
         break;
-      case 'Engineer':
-        const engineer = new Engineer(teamArray.id, teamArray.name, teamArray.email, teamArray.github);
+      case "Engineer":
+        const engineer = new Engineer(teamArr.id, teamArr.name, teamArr.email, teamArr.github);
         cards.push(generateEngineerCard(engineer));
         break;
-      case 'Intern':
-        const intern = new Intern(teamArray.id, teamArray.name, teamArray.email, teamArray.school);
+      case "Intern":
+        const intern = new Intern(teamArr.id, teamArr.name, teamArr.email, teamArr.school);
         cards.push(generateInternCard(intern));
         break;
     }
@@ -105,6 +105,5 @@ ${generateCards(team)}
 </html>
     `
 }
-
 
 module.exports = generateTeam;

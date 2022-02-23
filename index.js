@@ -62,7 +62,7 @@ const engineerQuestions = () => {
         {
             type: "input",
             name: "id",
-            message: "What is the engineer's id?",
+            message: "What is the engineer's ID?",
         },
         {
             type: "input",
@@ -107,7 +107,7 @@ const internQuestions = () => {
         {
             type: "input",
             name: "id",
-            message: "What is the intern's id?"
+            message: "What is the intern's ID?"
         },
         {
             type: "input",
