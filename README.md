@@ -69,6 +69,8 @@ Skills to be implemented on this project are:
 ## View of how application looks
 
 
+![Screen Shot 2022-02-22 at 6 09 13 PM](https://user-images.githubusercontent.com/94095220/155250907-089be506-7f35-499e-85e7-2164adc04e25.png)
+
 
 
 
